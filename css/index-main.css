@@ -22,16 +22,38 @@
  .product_1 {
      margin-left: 200px;
  }
- .product_2 {
+ .allproducts {
      margin-left: 30px;
  }
- .product_3 {
-     margin-left: 30px;
+.mainblock {
+margin-bottom: 15cm;
+margin-top: 82px;
+}
+.left_block {
+    height: 350px;
+    background-image: url(../img/maksym-img/sticks.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    width: 506px;
+    margin-left: 170px;
+    float: left;
+    ;
+}
+.right_block {
+    height: 350px;
+    background-image: url(../img/maksym-img/gutaitbackround.png);
+    background-size: cover;
+    width: 657px;
+    margin-right: 170px;
+    float: right;
+    ;
+}
+ .text_mainblock {
+     margin-top: 80px;
+     margin-left: 95px;
  }
-  .product_4 {
-     margin-left: 30px;
-  }
-  .product_1 p
+
+  
  
  
  
