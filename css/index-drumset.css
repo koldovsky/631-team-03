@@ -1,0 +1,109 @@
+/*Horton_Brown_Content_Yuliia_Martyniuk*/
+.drum-set{
+    background-color: #FAFAFA;
+}
+.black-text{
+    color: #242424
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: left;
+}
+.yellow-text{
+    color: #F8B803;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: left;
+}
+.description-black{
+    color:#777777;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: left;
+}
+.white-text{
+    font-size:40px;
+    font-family: sans-serif;
+}
+.description-white{
+    font-size:18px;
+    font-family: sans-serif;
+}
+.name-white{
+    font-size:24px;
+    font-family: sans-serif;
+}
+.green-price{
+    color:#669904;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.details{
+    font-size:14px;
+    font-family: sans-serif;
+}
+
+.old_price_drum{
+    color:#77777759;
+    font-size:20px;
+    font-family: sans-serif;
+    text-decoration: line-through;
+}
+.new_price_drum{
+    color:#669904;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.sail-content{
+    color:#242424;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500px;
+}
+.sail-price{
+    color:#777777
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.button-drum{
+background-color:black;
+color: white;
+padding: 23px 59px;
+font-size: 14px;
+border: none;
+border-radius: 5px;
+animation-fill-mode: forwards;
+}
+.button-drum:hover{
+    background-color: #F8B803;
+    color:black;
+}
+
+
+
+
+.drum-img{
+    width: 402px;
+    height: 305px;
+}
+.ericson-img{
+    width: 202px;
+    height: 148px;
+}
+.sail-img{
+    width: 233px;
+    height: 233px;
+}
+.sail-button{
+    background-color:black;
+    color: white;
+    padding: 23px 59px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.container_drum-set{
+    width: 441.66px;
+    height: 369px;
+}
