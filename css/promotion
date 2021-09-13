@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;600;700&display=swap');
+
+.promotion {
+    background-image: url(../img/baner.jpeg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h5 {
+
+    text-align: left;
+    color: orange;
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+
+h2 {
+    text-align: left;
+    color: black;
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 0px;
+}
+ .button-p {
+     display: block;
+     padding-bottom: 30px;
+     padding-right: 30px;
+ }
