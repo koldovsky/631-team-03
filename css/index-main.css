@@ -161,18 +161,19 @@ color: var(--greydecoration-color);
     display: flex;
     justify-content: space-around;
 }
-.separatebody_line{
+.separatebody_line {
     opacity: .4;
     width: 1px;
     height: 80px;
     background-color: rgb(107, 107, 107);
 }
-    .bodytime{
+.bodytime {
         margin-top: 20px;
         display: flex;
         font-size: 18px;
         line-height: 27px;
         color: rgb(107, 107, 107);
+}
         
        
     
