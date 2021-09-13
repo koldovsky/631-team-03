@@ -1,48 +1,53 @@
 /* Maksym Orekhovskyi Beginning */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
-:root {
-    --greydecoration-color:#777;
-    --logo-color:#f8b803;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap'); :root {
+    --greydecoration-color: #777;
+    --logo-color: #f8b803;
     font-family: 'Work Sans', sans-serif;
 }
+
 .orangesmalltext {
     text-align: center;
     color: var(--logo-color);
- }
- .heading {
-     text-align: center;
-     font-size: larger;
- }
- .divider-component {
-     margin: auto;
- }
- .grey-text {
-     color: var(--greydecoration-color);
-     text-align: center;
-     font-size: larger;
-     
- }
- .carousel {
-     display: flex;
-    margin: 50px 190px 80px 190px; 
+}
+
+.heading {
+    text-align: center;
+    font-size: larger;
+}
+
+.divider-component {
+    margin: auto;
+}
+
+.grey-text {
+    color: var(--greydecoration-color);
+    text-align: center;
+    font-size: larger;
+}
+
+.carousel {
+    display: flex;
+    margin: 50px 190px 80px 190px;
     color: var(--greydecoration-color);
     font-weight: bold;
-     
- }
- .product_1 {
-     margin-left: 200px;
- }
- .allproducts {
-     margin-left: 30px;
- }
-.mainblock {
-display:flex;
-flex-direction: row;
-margin-left: 170px;
-
 }
+
+.product_1 {
+    margin-left: 200px;
+}
+
+.allproducts {
+    margin-left: 30px;
+}
+
+.mainblock {
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+}
+
 .left_block {
-    background-image:url(../img/maksym-img/sticks.png);
+    background-image: url(../img/maksym-img/sticks.png);
     background-size: 510px;
     background-repeat: no-repeat;
     background-color: #fafafa;
@@ -50,159 +55,146 @@ margin-left: 170px;
     height: 350px;
     margin-right: 35px;
     text-align: center;
-    
 }
+
 .left_block p {
     font-size: 14px;
     font-weight: bold;
 }
+
 .textleftblock {
     margin-top: 70px;
 }
+
 .speckcolor {
     color: var(--logo-color) ;
 }
+
 .specialrates {
-font-size: 11px !important;
-text-transform: uppercase;
-color: var(--greydecoration-color);
+    font-size: 11px !important;
+    text-transform: uppercase;
+    color: var(--greydecoration-color);
 }
+
 .left_block .leftcolor {
     color: rgb(102,153,4);
     font-size: 17px;
 }
+
 .megasale {
-    font-size:34px;
+    font-size: 34px;
 }
+
 .left_block .regretlater {
     font-size: 16px;
     color: var(--greydecoration-color);
     font-weight: unset;
     margin-top: 30px;
 }
+
 .right_block {
-   background-image: url(../img/maksym-img/gutaitbackround.png);
-   background-size: cover;
-   width: 670px;
-   height: 350px;
-   text-align: left;
-   padding-left: 45px;
-   border-radius: 2px;
+    background-image: url(../img/maksym-img/gutaitbackround.png);
+    background-size: cover;
+    width: 670px;
+    height: 350px;
+    text-align: left;
+    padding-left: 45px;
+    border-radius: 2px;
 }
+
 .textrightblock {
     margin-top: 50px;
 }
-    
 
+.description a {
+    text-decoration: none;
+    color: black;
+}
 
- .description a {
-     text-decoration: none;
-     color: black;
- }
- .description a:hover{
- color: var(--logo-color);
- }
- .carousel button {
+.description a:hover {
+    color: var(--logo-color);
+}
+
+.carousel button {
     background-color: black;
     color: white;
     font-weight: bold;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
     border: none;
- }
- .carousel button:hover {
-    background-color: var(--logo-color) ;
-    border:none;
- }
- .textrightblock button {
-     height: 45px;
-     width: 110px;
-     border-radius: 5px;
-     font-weight: bold;
-     border: none;
-     margin-top: 20px;
- }
- .textrightblock button:hover {
-    background-color:var(--logo-color) ;
-    border:none;
 }
+
+.carousel button:hover {
+    background-color: var(--logo-color) ;
+    border: none;
+}
+
 .textrightblock button {
-    background-color:white;
-    border:none;
-    color:black;
+    height: 45px;
+    width: 110px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+}
+
+.textrightblock button:hover {
+    background-color: var(--logo-color) ;
+    border: none;
+}
+
+.textrightblock button {
+    background-color: white;
+    border: none;
+    color: black;
 }
 
 .namemartin {
-   color: white;
+    color: white;
     line-height: 20px;
 }
+
 .numberg56q {
-   color: white;
+    color: white;
     line-height: 15px;
 }
+
 .price299 {
     line-height: 40px;
-    color:var(--logo-color);
+    color: var(--logo-color);
     font-size: 20px;
     font-weight: bold;
 }
- 
+
 .changecolor {
     color: white;
 }
-    
+
 .bestprice {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .coundownbody {
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
 }
+
 .separatebody_line {
     opacity: .4;
     width: 1px;
     height: 80px;
     background-color: rgb(107, 107, 107);
 }
+
 .bodytime {
-        margin-top: 20px;
-        display: flex;
-        font-size: 18px;
-        line-height: 27px;
-        color: rgb(107, 107, 107);
+    margin-top: 20px;
+    display: flex;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(107, 107, 107);
 }
-        
-       
-    
-        
 
-
-
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- /* Maksym Orekhovskyi Finishing*/
+/* Maksym Orekhovskyi Finishing*/
