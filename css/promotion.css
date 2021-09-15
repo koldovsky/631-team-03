@@ -19,17 +19,30 @@ h5 {
 
 }
 
-h2 {
+.give {
     text-align: left;
-    color: black;
+    color: white;
     display: block;
     font-family: 'Work Sans', sans-serif;
-    padding-left: 0px;
+    padding-left: 40px;
 }
- .button-p {
+ .buy-instrument {
+     color: gray;
      display: block;
-     padding-bottom: 30px;
-     padding-right: 30px;
+ }
+
+ .percent {
+     color:green;
+ }
+
+ .offer-valid {
+     color: white;
+ }
+ .browse {
+     display: block;
+     margin-top: 150px;
+     margin-left: 40px;
+    
  }
 
  
