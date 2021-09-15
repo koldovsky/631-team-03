@@ -1,8 +1,4 @@
-body {
-  font-family: "Work Sans" sans-serif;
-  font-weight: 400 normal;
-  margin: 0 auto;
-}
+
 a {
   text-decoration: none;
 }
@@ -21,7 +17,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   }
-}
+
 .wrapper_container_product_of_the_month {
   min-width: 950px;
   margin: 0 auto;
@@ -162,7 +158,7 @@ a {
   color: #2e332f;
   transition: 0.5s;
 }
-.products {
+.products_card {
   margin: auto;
   max-width: 1200px;
   display: flex;
