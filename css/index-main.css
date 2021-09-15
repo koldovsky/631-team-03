@@ -8,6 +8,7 @@
 .orangesmalltext {
     text-align: center;
     color: var(--logo-color);
+    margin-top: 150px;
 }
 
 .heading {
@@ -20,6 +21,7 @@
 }
 
 .grey-text {
+    margin-top: 15px;
     color: var(--greydecoration-color);
     text-align: center;
     font-size: larger;
@@ -44,6 +46,7 @@
     display: flex;
     flex-direction: row;
     margin-left: 170px;
+    margin-bottom: 50px;
 }
 
 .left_block {
@@ -116,6 +119,7 @@
 }
 
 .carousel button {
+    margin-top: 15px;
     background-color: black;
     color: white;
     font-weight: bold;
@@ -196,5 +200,7 @@
     line-height: 27px;
     color: rgb(107, 107, 107);
 }
-
+ .description {
+     margin-bottom: 10px;
+ }
 /* Maksym Orekhovskyi Finishing*/
