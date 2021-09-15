@@ -1,5 +1,7 @@
 /* Maksym Orekhovskyi Beginning */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap'); :root {
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+ :root {
     --greydecoration-color: #777;
     --logo-color: #f8b803;
     font-family: 'Work Sans', sans-serif;
@@ -70,7 +72,7 @@
 }
 
 .speckcolor {
-    color: var(--logo-color) ;
+    color: var(--logo-color);
 }
 
 .specialrates {
@@ -80,7 +82,7 @@
 }
 
 .left_block .leftcolor {
-    color: rgb(102,153,4);
+    color: rgb(102, 153, 4);
     font-size: 17px;
 }
 
@@ -129,7 +131,7 @@
 }
 
 .carousel button:hover {
-    background-color: var(--logo-color) ;
+    background-color: var(--logo-color);
     border: none;
 }
 
@@ -143,7 +145,7 @@
 }
 
 .textrightblock button:hover {
-    background-color: var(--logo-color) ;
+    background-color: var(--logo-color);
     border: none;
 }
 
@@ -200,7 +202,10 @@
     line-height: 27px;
     color: rgb(107, 107, 107);
 }
- .description {
-     margin-bottom: 10px;
- }
+
+.description {
+    margin-bottom: 10px;
+}
+
+
 /* Maksym Orekhovskyi Finishing*/
