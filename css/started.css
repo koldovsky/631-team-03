@@ -1,6 +1,6 @@
 
 .drumm1 {
-    background-image: url(img/drum.webp);
+    background-image: url(img/drum-background-img.webp);
     background-position: center;
     background-size: cover;
     margin: 5%;
@@ -31,7 +31,7 @@
     color: black;
 }
 .guitarr1 {
-    background-image: url(img/guitar.webp);
+    background-image: url(img/guitar-background-img.webp);
     background-position: center;
     background-size: cover;
     margin: 5%;
