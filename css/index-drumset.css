@@ -10,7 +10,7 @@
 }
 .yellow-text{
     color: #F8B803;
-    font-size: 12px;
+    font-size: 14px;
     font-family: sans-serif;
     text-align: left;
 }
@@ -21,14 +21,17 @@
     text-align: left;
 }
 .white-text{
+    color: white;
     font-size:40px;
     font-family: sans-serif;
 }
 .description-white{
+    color: white;
     font-size:18px;
     font-family: sans-serif;
 }
 .name-white{
+    color: white;
     font-size:24px;
     font-family: sans-serif;
 }
@@ -36,6 +39,10 @@
     color:#669904;
     font-size: 16px;
     font-family: sans-serif;
+    font-weight: bold;
+}
+.yellow-dot{
+    color: #F8B803;
 }
 .details{
     font-size:14px;
@@ -54,20 +61,22 @@
     font-family: sans-serif;
 }
 .sail-content{
-    color:#242424;
-    font-size: 16px;
+    color:#777777;
+    font-size: 20px;
     font-family: sans-serif;
     font-weight: 500px;
 }
 .sail-price{
-    color:#777777
-    font-size: 16px;
+    color: #F8B803;
+    font-size: 20px;
     font-family: sans-serif;
+    font-weight: bold;
+
 }
 .button-drum{
 background-color:black;
 color: white;
-padding: 23px 59px;
+padding: 20px 40px;
 font-size: 14px;
 border: none;
 border-radius: 5px;
@@ -86,8 +95,8 @@ animation-fill-mode: forwards;
     height: 148px;
 }
 .sail-img{
-    width: 233px;
-    height: 233px;
+    width: 240px;
+    height: 240px;
 }
 .sail-button{
     background-color:black;
@@ -108,20 +117,25 @@ animation-fill-mode: forwards;
 .drum-set {
     display: flex;
     flex-direction: row;
-    justify-content: flex-between;
-    margin: 0 auto;
+    justify-content: center;
+    margin: auto 200px;
+    min-height: 450px;
+    grid-gap: 20px;
+}
 }
 .container_drum-set{
    display: flex;
     flex-direction: column;
     justify-content: flex-between;
     flex-basis: 400px;
-    width: 600px; 
+    width: 600px;
+    margin: 50px 150px;  
 }
 .price_container{
     display: flex;
     flex-direction: column;
     justify-content: flex-between; 
+    margin: 50px 0px; 
 }
 .img_container{
     display: flex;
@@ -139,11 +153,11 @@ animation-fill-mode: forwards;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
+    min-height: 800px;
 
     } 
 .deskription_promo{
@@ -151,50 +165,77 @@ animation-fill-mode: forwards;
     flex-direction: column;
     justify-content: flex-start;
     align-self: flex-end;
+    margin: 50px 270px 50px 800px;
 } 
 .ericsons_container{
     display: flex;
     flex-direction: row;
-    grid-gap: 50px;
+    grid-gap: 110px;
+    margin: 50px 200px 50px 800px;
 }
 
 .ericson_white_container{
     display: flex;
     flex-direction: column;
+    background-color: rgb(8, 8, 8);
+    padding: 10px 10px;
     
 }    
 .ericson_bw_container{
     display: flex;
     flex-direction: column;
+    background-color: rgb(8, 8, 8);
+    padding: 10px 10px;
     
 }
 @media(min-width:600px){
     main .sail_continer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 5px;}
+       }
     }
 .sail_continer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-      
-}    
+    min-height: 600px; 
+}
+.description_continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 100px 0px 0 50px;
+    border-color:#f6f6f6;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 100px;
+    padding: 30px 20px;
+}
+.time-box{
+   display: flex;
+   justify-content: space-between;
+}  
+.separate-line{
+    width: 1px;
+    height: 100px;
+    background-color: rgb(107, 107, 107);
+}
+                
 .guitar_continer{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
+    margin: 100px 0;
 }
 .horn_continer{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-     
+    margin: 100px 0;
 }
 .violin_continer{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
+    margin: 100px 100px 0 15px;
 }
