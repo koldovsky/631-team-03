@@ -49,3 +49,17 @@ input[type=text] {
   margin: auto;
 
 }
+
+.orchestric-sale-week-banner {
+  background: url(..img/backgrounds/background-orchestric-sale-week.webp);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px;
+  grid-column-gap: 10px;
+}
