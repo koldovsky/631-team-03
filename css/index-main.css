@@ -233,7 +233,11 @@
    font-size: 60px;
    color:grey;
    }
-   
+   .owl-dots :hover {
+      width: 1px;
+      height: 1px;
+      
+   }
 
 
 /* Maksym Orekhovskyi Finishing*/
