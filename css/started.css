@@ -1,20 +1,85 @@
-
-.drumm1 {
-    background-image: url(img/drum.webp);
-    background-position: center;
+.big-sale-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 399px;
+    margin: auto;
+  }
+  
+  .big-sale-left {
+    width: 582px;
+    height: 359px;
+    background-image: url(img/fon-drum.png);
     background-size: cover;
-    margin: 5%;
-    padding: 5%;
-}
-.drumtxt1 {
-    padding-top: 10%;
     text-align: center;
-}
-.buttonn {
-    text-align: center;
-
-}
-.buttonn1 {
+  }
+  
+  .big-sale-text-one {
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    color: #f8b803;
+    padding-top: 60px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+  .big-sale-text-two {
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 1.1;
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    margin-bottom: 35px;
+  }
+  
+  .big-sale-text-three {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+  .big-sale-text-four {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 50px;
+  }
+  
+  
+  .big-sale-right {
+    width: 582px;
+    height: 359px;
+    background-image: url(img/fon-guitar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+  
+  .big-sale-right-text-one {
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    color: #f8b803;
+    padding: 100px 20px 30px 50px;
+  }
+  
+  .big-sale-right-text-two {
+    font-size: 40px;
+    color: #242424;
+    line-height: 1.1;
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    padding: 0px 20px 30px 50px;
+  }
+  .buttonn1 {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     color: white;
@@ -30,29 +95,13 @@
     background-color: white;
     color: black;
 }
-.guitarr1 {
-    background-image: url(img/guitar.webp);
-    background-position: center;
-    background-size: cover;
-    margin: 5%;
-    padding: 5%;
-}
-.guitartxt1 {
-    padding-top: 15%;
-    padding-left: 10px;
-}
-h1 {
-    font-size: 45px;
-}
-.colorm {
-    color: #f8b803;
-}
-.colorm1 {
-    color: white;
+.color-point {
+  color: #f8b803;
 }
 .carousell1 {
-    display:flex;
-    background-position: center;
-    width: 110px;
-    height: 110px;
+  display:flex;
+  background-position: center;
+  width: 127px;
+  height: 63px;
 }
+

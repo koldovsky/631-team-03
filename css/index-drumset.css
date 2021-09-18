@@ -1,200 +1,254 @@
 /*Horton_Brown_Content_Yuliia_Martyniuk*/
-.drum-set{
-    background-color: #FAFAFA;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
+.drum-set {
+  background-color: #fafafa;
 }
-.black-text{
-    color: #242424;
-    font-size: 40px;
-    font-family: sans-serif;
-    text-align: left;
+.black-text {
+  color: #242424;
+  font-size: 40px;
+  font-family: "Work Sans", sans-serif;
+  text-align: left;
 }
-.yellow-text{
-    color: #F8B803;
-    font-size: 12px;
-    font-family: sans-serif;
-    text-align: left;
+.yellow-text {
+  color: #f8b803;
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  text-align: left;
 }
-.description-black{
-    color:#777777;
-    font-size: 18px;
-    font-family: sans-serif;
-    text-align: left;
+.description-black {
+  color: #777777;
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+  text-align: left;
 }
-.white-text{
-    font-size:40px;
-    font-family: sans-serif;
+.white-text {
+  color: white;
+  font-size: 40px;
+  font-family: "Work Sans", sans-serif;
 }
-.description-white{
-    font-size:18px;
-    font-family: sans-serif;
+.description-white {
+  color: white;
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
 }
-.name-white{
-    font-size:24px;
-    font-family: sans-serif;
+.name-white {
+  color: white;
+  font-size: 24px;
+  font-family: "Work Sans", sans-serif;
 }
-.green-price{
-    color:#669904;
-    font-size: 16px;
-    font-family: sans-serif;
+.green-price {
+  color: #669904;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
 }
-.details{
-    font-size:14px;
-    font-family: sans-serif;
+.yellow-dot {
+  color: #f8b803;
 }
-
-.old_price_drum{
-    color:#77777759;
-    font-size:20px;
-    font-family: sans-serif;
-    text-decoration: line-through;
-}
-.new_price_drum{
-    color:#669904;
-    font-size: 40px;
-    font-family: sans-serif;
-}
-.sail-content{
-    color:#242424;
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: 500px;
-}
-.sail-price{
-    color:#777777
-    font-size: 16px;
-    font-family: sans-serif;
-}
-.button-drum{
-background-color:black;
-color: white;
-padding: 23px 59px;
-font-size: 14px;
-border: none;
-border-radius: 5px;
-animation-fill-mode: forwards;
-}
-.button-drum:hover{
-    background-color: #F8B803;
-    color:black;
-}
-.drum-img{
-    width: 402px;
-    height: 305px;
-}
-.ericson-img{
-    width: 202px;
-    height: 148px;
-}
-.sail-img{
-    width: 233px;
-    height: 233px;
-}
-.sail-button{
-    background-color:black;
-    color: white;
-    padding: 23px 59px;
-    font-size: 14px;
-    border: none;
-    border-radius: 5px;
+.details {
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
 }
 
-@media(min-width:600px){
-    main .drum-set {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 5px;
-    }
+.old_price_drum {
+  color: #77777759;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: line-through;
+}
+.new_price_drum {
+  color: #669904;
+  font-size: 40px;
+  font-family: "Work Sans", sans-serif;
+}
+.sail-content {
+  color: #777777;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500px;
+}
+.sail-price {
+  color: #f8b803;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+.button-drum {
+  background-color: black;
+  color: white;
+  padding: 20px 40px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  animation-fill-mode: forwards;
+}
+.button-drum:hover {
+  background-color: #f8b803;
+  color: black;
+}
+.drum-img {
+  width: 402px;
+  height: 305px;
+}
+.ericson-img {
+  width: 202px;
+  height: 148px;
+}
+.sail-img {
+  width: 240px;
+  height: 240px;
+}
+.sail-button {
+  background-color: black;
+  color: white;
+  padding: 23px 59px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (min-width: 650px) {
+  main .drum-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 .drum-set {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-between;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 450;
+  min-height: 450px;
+  margin: 100px 150px;
 }
-.container_drum-set{
-   display: flex;
-    flex-direction: column;
-    justify-content: flex-between;
-    flex-basis: 400px;
-    width: 600px; 
+.container_drum-set {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 400px;
+  width: 600px;
+  margin: 50px 150px 0 0;
 }
-.price_container{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-between; 
+.price_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0px;
 }
-.img_container{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-between;
+.img_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 80px 0 0 50px;
 }
-@media(min-width:600px){
-    main .promo_container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 5px;}
-    }
-.promo_container{
-    background-image: url(../img/background_neon.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
+@media (min-width: 600px) {
+  main .promo_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+  }
+}
+.promo_container {
+  background-image: url(../img/background_neon.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  min-height: 800px;
+}
+.deskription_promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+  margin: 50px 270px 50px 800px;
+}
+.ericsons_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 200px 50px 800px;
+}
 
-    } 
-.deskription_promo{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-self: flex-end;
-} 
-.ericsons_container{
-    display: flex;
-    flex-direction: row;
-    grid-gap: 50px;
+.ericson_white_container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(8, 8, 8);
+  padding: 10px 10px;
+  margin: 0 20px 0 50px;
+  width: 275px;
+  height: 380px;
+}
+.ericson_bw_container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(8, 8, 8);
+  padding: 10px 10px;
+  width: 275px;
+  height: 380px;
+}
+@media (min-width: 650px) {
+  main .sail_continer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+}
+.sail_continer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  min-height: 600px;
+}
+.description_continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 100px 0px 0 50px;
+  border-color: #f6f6f6;
+  border-width: 2px;
+  border-style: solid;
+  margin-bottom: 100px;
+  padding: 30px 20px;
 }
 
-.ericson_white_container{
-    display: flex;
-    flex-direction: column;
-    
-}    
-.ericson_bw_container{
-    display: flex;
-    flex-direction: column;
-    
+.time-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
 }
-@media(min-width:600px){
-    main .sail_continer {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 5px;}
-    }
-.sail_continer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-      
-}    
-.guitar_continer{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    
+.body-time {
+  color: #777777;
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
 }
-.horn_continer{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-     
+
+.separate-line {
+  width: 1px;
+  height: 70px;
+  background-color: rgb(107, 107, 107);
 }
-.violin_continer{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    
+
+.guitar_continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 100px 0;
+}
+.horn_continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 100px 0;
+}
+.violin_continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 100px 100px 0 15px;
 }

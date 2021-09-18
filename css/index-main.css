@@ -1,5 +1,7 @@
 /* Maksym Orekhovskyi Beginning */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap'); :root {
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+ :root {
     --greydecoration-color: #777;
     --logo-color: #f8b803;
     font-family: 'Work Sans', sans-serif;
@@ -8,6 +10,7 @@
 .orangesmalltext {
     text-align: center;
     color: var(--logo-color);
+    margin-top: 150px;
 }
 
 .heading {
@@ -20,12 +23,13 @@
 }
 
 .grey-text {
+    margin-top: 15px;
     color: var(--greydecoration-color);
     text-align: center;
     font-size: larger;
 }
 
-.carousel {
+.owl-carousel {
     display: flex;
     margin: 50px 190px 80px 190px;
     color: var(--greydecoration-color);
@@ -36,7 +40,7 @@
     margin-left: 200px;
 }
 
-.allproducts {
+.Slide {
     margin-left: 30px;
 }
 
@@ -44,6 +48,7 @@
     display: flex;
     flex-direction: row;
     margin-left: 170px;
+    margin-bottom: 50px;
 }
 
 .left_block {
@@ -67,7 +72,7 @@
 }
 
 .speckcolor {
-    color: var(--logo-color) ;
+    color: var(--logo-color);
 }
 
 .specialrates {
@@ -77,7 +82,7 @@
 }
 
 .left_block .leftcolor {
-    color: rgb(102,153,4);
+    color: rgb(102, 153, 4);
     font-size: 17px;
 }
 
@@ -113,9 +118,11 @@
 
 .description a:hover {
     color: var(--logo-color);
+    text-decoration:none;
 }
 
-.carousel button {
+.owl-carousel button {
+    margin-top: 15px;
     background-color: black;
     color: white;
     font-weight: bold;
@@ -124,8 +131,8 @@
     border: none;
 }
 
-.carousel button:hover {
-    background-color: var(--logo-color) ;
+.owl-carousel button:hover {
+    background-color: var(--logo-color);
     border: none;
 }
 
@@ -139,7 +146,7 @@
 }
 
 .textrightblock button:hover {
-    background-color: var(--logo-color) ;
+    background-color: var(--logo-color);
     border: none;
 }
 
@@ -196,5 +203,41 @@
     line-height: 27px;
     color: rgb(107, 107, 107);
 }
+
+.description {
+    margin-bottom: 10px;
+}
+.owl-carousel {
+    width: 1100px;   
+    align-items: center;
+    ;
+    
+   }
+   .owl-carousel .owl-nav [class*=owl-] {
+       position: absolute;
+       top: 50%;
+       transform: translateY(-50%);
+       margin-top: -20px;  
+       
+       
+   }
+   .owl-carousel .owl-nav button.owl-next {
+       right: -200px;
+   
+   }
+   .owl-carousel .owl-nav button.owl-prev {
+    left: -200px;
+
+}
+   .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+   font-size: 60px;
+   color:grey;
+   }
+   .owl-dots :hover {
+      width: 1px;
+      height: 1px;
+      
+   }
+
 
 /* Maksym Orekhovskyi Finishing*/
