@@ -88,6 +88,7 @@ input[type=text] {
   padding: 10px;
 }
 
+
 @media (max-width: 750px) {
   .footer-top {
     background-color:  #242424;
