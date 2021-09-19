@@ -1,24 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;600;700&display=swap');
 
 .footer-top {
-  background-color:  #242424;
   padding: 100px 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 150px;
   grid-column-gap: 30px;
  
+}
 
+.footer-top-background {
+  background-color:  #242424;
+  background-size: cover;
 }
 
 .footer-buttom {
-  background-color: rgb(30, 30, 30);
   color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 10px 100px 10px 100px;
   justify-items: center;
   text-align: end;
+}
+
+.footer-buttom-background {
+  background-color:  rgb(30, 30, 30);
+  background-size: cover;
 }
 
 .orange-color {
