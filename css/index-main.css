@@ -243,6 +243,25 @@
       height: 1px;
       
    }
+   @media (max-width:750px) {
+       :root {
+           max-width: 720px;
+       }
+    .mainblock {
+          display: flex;
+          flex-direction: column;
+          align-items: left;
+          margin-left: 0;
+        }
+        .left_block {
+          width: 100%;
+        }
+   .new_arrivals_block {
+       text-align: center;
+   }
+   
+    }
+  
 
 
 /* Maksym Orekhovskyi Finishing*/
