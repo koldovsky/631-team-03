@@ -1,6 +1,5 @@
 .big-sale-container {
     display: flex;
-    justify-content: space-between;
     width: 1200px;
     height: 399px;
     margin: auto;
@@ -17,9 +16,6 @@
   .big-sale-text-one {
     display: block;
     font-size: 12px;
-    line-height: 1.4;
-    font-family: Work Sans, sans-serif;
-    font-weight: 600;
     color: #f8b803;
     padding-top: 60px;
     margin: 0 auto;
@@ -30,24 +26,18 @@
     font-size: 40px;
     color: #ffffff;
     line-height: 1.1;
-    font-family: Work Sans, sans-serif;
-    font-weight: 600;
     margin-bottom: 35px;
   }
   
   .big-sale-text-three {
     font-size: 16px;
     line-height: 1.5;
-    font-family: Work Sans, sans-serif;
-    font-weight: 400;
     color: #fff;
   }
   
   .big-sale-text-four {
     font-size: 16px;
     line-height: 1.5;
-    font-family: Work Sans, sans-serif;
-    font-weight: 400;
     color: #fff;
     margin-bottom: 50px;
   }
@@ -65,8 +55,6 @@
   .big-sale-right-text-one {
     font-size: 12px;
     line-height: 1.4;
-    font-family: Work Sans, sans-serif;
-    font-weight: 600;
     color: #f8b803;
     padding: 100px 20px 30px 50px;
   }
@@ -75,8 +63,6 @@
     font-size: 40px;
     color: #242424;
     line-height: 1.1;
-    font-family: Work Sans, sans-serif;
-    font-weight: 600;
     padding: 0px 20px 30px 50px;
   }
   .buttonn1 {
