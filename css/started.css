@@ -8,7 +8,7 @@
   .big-sale-left {
     width: 582px;
     height: 359px;
-    background-image: url(img/fon-drum.png);
+    background-image: url(../img/fon-drum.png);
     background-size: cover;
     text-align: center;
   }
@@ -46,7 +46,7 @@
   .big-sale-right {
     width: 582px;
     height: 359px;
-    background-image: url(img/fon-guitar.png);
+    background-image: url(../img/fon-guitar.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: right;
