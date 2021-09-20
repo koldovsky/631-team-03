@@ -1,21 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
 
 .promotion {
     background-image: url(../img/baner.jpeg);
     min-height: 400px;
     background-size: cover;
     background-position: center;
-
+    min-width: 976px;
 }
 
-h5 {
+.prom {
 
     text-align: left;
     color: orange;
     display: block;
     font-family: 'Work Sans', sans-serif;
-    padding-left: 40px;
-    padding-top: 40px;
+    font-size: 0.83em;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-weight: 600;
 
 }
 
@@ -24,11 +27,23 @@ h5 {
     color: white;
     display: block;
     font-family: 'Work Sans', sans-serif;
-    padding-left: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px 0 20px 40px;
 }
+
+.give-point {
+color: orange;
+}
+
  .buy-instrument {
+     text-align: left;
      color: gray;
      display: block;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: bold;
+     padding: 0px 0px 20px 40px;
+     
  }
 
  .percent {
@@ -36,13 +51,47 @@ h5 {
  }
 
  .offer-valid {
+     text-align: left;
      color: white;
- }
- .browse {
      display: block;
-     margin-top: 150px;
-     margin-left: 40px;
-    
+     font-family: 'Work Sans', sans-serif;
+     padding-left: 40px;
  }
+.button-promotion {
+    padding: 100px 45px 0 40px;
+    
+}
+
+.btn-promotion {
+     display: inline-block;
+     background-color: orange;
+     border-radius: 3px;
+     text-align: center;
+     text-decoration: none;
+     width: 180px;
+    height: 45px;
+
+ }
+/* .browse {
+     display: block;
+     width: 180px;
+     height: 45px;
+     margin: 100px 0px 0px 50px;
+     color: orange;  
+ }
+
+ .browse a {
+     text-decoration: none;
+     color:white;
+ }
+ .browse a:active {
+     text-decoration: none;
+     color:white;
+ }
+
+ .choise{
+     position: absolute;
+     margin-left: 150px;
+ }*/
 
  
