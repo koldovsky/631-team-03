@@ -124,7 +124,7 @@ p {
 }
 }
 .background {
-    background: url("../img/backgrounds/background.jpeg") no-repeat center;
+    background: url("img/backgrounds/background.jpeg") no-repeat center;
     background-size: cover;
     background-position: center top;
     position: relative;
