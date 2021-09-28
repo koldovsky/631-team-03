@@ -30,6 +30,7 @@
     font-size: 40px;
     font-weight: 600;
     padding: 20px 0 20px 40px;
+margin: 0 0 0 0;
 }
 
 .give-point {
@@ -56,42 +57,35 @@ color: orange;
      display: block;
      font-family: 'Work Sans', sans-serif;
      padding-left: 40px;
+     margin: 0 0 0 0;
  }
+ 
 .button-promotion {
-    padding: 100px 45px 0 40px;
+    padding: 100px 45px 40px 40px;
     
 }
 
 .btn-promotion {
-     display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
      background-color: orange;
      border-radius: 3px;
-     text-align: center;
      text-decoration: none;
      width: 180px;
     height: 45px;
-
- }
-/* .browse {
-     display: block;
-     width: 180px;
-     height: 45px;
-     margin: 100px 0px 0px 50px;
-     color: orange;  
+    margin-bottom: 40px;
+    font-size: 14px;
  }
 
- .browse a {
+ .btn-promotion:hover  {
+     background-color: white;
      text-decoration: none;
-     color:white;
- }
- .browse a:active {
-     text-decoration: none;
-     color:white;
  }
 
- .choise{
-     position: absolute;
-     margin-left: 150px;
- }*/
-
- 
+ .browse-ins {
+    color: white;
+}
+ .browse-ins:hover {
+         color: black;
+}
