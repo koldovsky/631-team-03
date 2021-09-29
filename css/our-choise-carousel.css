@@ -23,11 +23,12 @@ color: orange;
 }
 
 .best {
+    margin: auto;
     background-color: orange;
     height: 2px;
     display: block;
     border: none;
-    width: 28px;
+    width: 47px;
     
 }
 
