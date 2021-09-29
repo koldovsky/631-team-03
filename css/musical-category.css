@@ -76,7 +76,8 @@
     margin-left: 0px;
 }
 
-hr {
+.hr-guitars, .hr-drums, .hr-orchestric {
+
     background-color: orange;
     height: 2px;
     border: none;
@@ -94,8 +95,9 @@ color: slategray;
 color: slategray;
 }
 
+
+
 @media (min-width: 600px) { 
 
 
 }
-    
