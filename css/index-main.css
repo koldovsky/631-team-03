@@ -6,7 +6,13 @@
     --logo-color: #f8b803;
     font-family: 'Work Sans', sans-serif;
 }
+section .new_arrivals_section {
+    max-width: 1200px;
+}
+section .megasellday_coundown_section {
+    max-width: 1200px;
 
+}
 .orangesmalltext {
     text-align: center;
     color: var(--logo-color);
@@ -218,6 +224,9 @@
     ;
     
    }
+   .owl-dots {
+    display: none;
+    }
    .owl-carousel .owl-nav [class*=owl-] {
        position: absolute;
        top: 50%;
