@@ -205,14 +205,15 @@
           <p class="startfrom">Starting from <span class="leftcolor">$139.99</span></p>
           <p class="regretlater">Shop now or regret later.</p>
         </div>
-        <div class="coundownbody">
-          <div class="bodytime">Days</div>
-          <div class="separatebody_line"></div>
-          <div class="bodytime">Hours</div>
-          <div class="separatebody_line"></div>
-          <div class="bodytime">Minutes</div>
-          <div class="separatebody_line"></div>
-          <div class="bodytime">Second</div>
+        <div class="coundownbody" id="myGroup">
+          <span class="countdownTime_size" id="d"></span>
+          <span class="countdownTime_size" id="h"></span>
+          <span class="countdownTime_size" id="m"></span>
+          <span class="countdownTime_size" id="s"></span>
+            <p id="w-text">Days</p>
+            <p id="w-text">Hourse</p>
+            <p id="w-text">Minutes</p>
+            <p id="w-text">Seconds</p>
         </div>
       </div>
 
@@ -793,6 +794,10 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
 crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.7/dayjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.7/plugin/duration.min.js"></script>
+
 
 
 </body>
