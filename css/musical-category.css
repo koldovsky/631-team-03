@@ -6,9 +6,8 @@
     margin-right: 10px;
     margin-bottom: 0px;
     margin-left: 85px;*/
-    max-width: 1368px;
-    min-height: 288px;
-
+    max-width: 1368px; 
+                       /* delete  min-height Maksym Orekhovskyi */
 
 }
 
