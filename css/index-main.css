@@ -12,14 +12,27 @@ section .new_arrivals_section {
 section .megasellday_coundown_section {
     max-width: 1200px;
     width: 410px;
-
 }
 .orangesmalltext {
     text-align: center;
     color: var(--logo-color);
     margin-top: 150px;
 }
-
+.coundown_days_seconds_minutes {
+   margin-right:20px ;
+   margin-left:20px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.divider_line {
+    width: 1px;
+    height: 50px;
+    background-color:#242424;
+    display: grid;
+    justify-self: center;
+    opacity: .125;
+    
+}
 .heading {
     text-align: center;
     font-size: larger;
@@ -29,8 +42,10 @@ section .megasellday_coundown_section {
     font-weight: bold;
 }
 #w-text {
-    font-size: 15px;
+    font-size: 12px;
     color: var(--greydecoration-color);
+    opacity: .800;
+    font-weight: none;
 }
 .divider-component-block {
     display: grid;
@@ -206,10 +221,11 @@ section .megasellday_coundown_section {
 }
 
 .coundownbody {
+   margin-left: 20px;
+   margin-right: 20px;
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 10px;
+    grid-template-columns: auto 5px auto 5px auto 5px auto;
 }
 
 .separatebody_line {
