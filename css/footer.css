@@ -67,7 +67,7 @@
    margin-bottom: 1em; /* Отступ снизу */
 }
 
-a:hover {
+.link-hover:hover {
     color: #f8b803;
     font-style: unset;
     text-decoration: underline;
