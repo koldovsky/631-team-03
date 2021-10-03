@@ -56,7 +56,7 @@
 }
 
 .footer-nav-links {
-  color: #757575;
+  color: #757575 !important;
   text-decoration: none;
   font-size: 17px;
   margin-top: 50px;
@@ -68,7 +68,7 @@
 }
 
 .link-hover:hover {
-    color: #f8b803;
+    color: #f8b803 !important;
     font-style: unset;
     text-decoration: underline;
   }
