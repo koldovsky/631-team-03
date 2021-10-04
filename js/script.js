@@ -1,13 +1,3 @@
-$(function() {
-    // Owl Carousel
-    var owl = $(".owl-carousel");
-    owl.owlCarousel({
-      items: 4,
-      margin: 10,
-      loop: true,
-      nav: true
-    });
-  });
 
   
 let date = new Date('Oct 29 2021 00:00:00');

@@ -62,10 +62,13 @@ section .megasellday_coundown_section {
 }
 
 .owl-carousel {
-    display: flex;
-    margin: 50px 190px 80px 190px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     color: var(--greydecoration-color);
     font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-items: center;
 }
 
 .product_1 {
@@ -73,7 +76,7 @@ section .megasellday_coundown_section {
 }
 
 .Slide {
-    margin-left: 30px;
+    width: 224px;
 }
 
 .mainblock {
@@ -159,9 +162,10 @@ section .megasellday_coundown_section {
     background-color: black;
     color: white;
     font-weight: bold;
-    padding: 10px 20px 10px 20px;
     border-radius: 5px;
     border: none;
+    width: 120px;
+    height: 45px;
 }
 
 .owl-carousel button:hover {
@@ -247,40 +251,9 @@ section .megasellday_coundown_section {
 .description {
     margin-bottom: 10px;
 }
-.owl-carousel {
-    width: 1100px;   
-    align-items: center;
-    ;
-    
-   }
-   .owl-dots {
-    display: none;
-    }
-   .owl-carousel .owl-nav [class*=owl-] {
-       position: absolute;
-       top: 50%;
-       transform: translateY(-50%);
-       margin-top: -20px;  
-       
-       
-   }
-   .owl-carousel .owl-nav button.owl-next {
-       right: -200px;
-   
-   }
-   .owl-carousel .owl-nav button.owl-prev {
-    left: -200px;
 
-}
-   .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-   font-size: 60px;
-   color:grey;
-   }
-   .owl-dots :hover {
-      width: 1px;
-      height: 1px;
-      
-   }
+   
+
    @media (max-width:750px) {
        :root {
            max-width: 720px;
