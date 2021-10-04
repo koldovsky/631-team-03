@@ -148,6 +148,7 @@ section .megasellday_coundown_section {
     color: black;
 }
 
+
 .description a:hover {
     color: var(--logo-color);
     text-decoration:none;
