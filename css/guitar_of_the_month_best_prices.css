@@ -1,4 +1,8 @@
-
+body {
+  font-family: "Work Sans" sans-serif;
+  font-weight: 400 normal;
+  margin: 0 auto;
+}
 a {
   text-decoration: none;
 }
@@ -8,7 +12,7 @@ a {
   justify-content:space-evenly;
   flex-wrap: wrap;
   max-width: 100%;
-  max-height: 650px;
+  min-height: 650px;
   background: url(../img/peacock_background.png);
   background-size: cover;
   background-position: center;
@@ -77,11 +81,11 @@ a {
   line-height: 24px;
   color: rgb(107, 107, 107);
 }
-.coundown_wrapper {
-  height: 141px;
+.countdown_wrapper {
+  min-height: 141px;
   margin-top: 70px;
 }
-.coundown {
+.countdown {
   display: flex;
   justify-content: space-around;
   }
@@ -95,8 +99,16 @@ a {
   height: 100px;
   background-color: rgb(107, 107, 107);
 }
-.time {
-  display: flex;
+.countdown_days, .countdown_hours, .countdown_minutes, .countdown_seconds{
+  min-height: 70.5px;
+  padding-top: 10px;
+  line-height: 54px;
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+}
+.time_days, .time_hours, .time_minutes, .time_seconds {
+  min-height: 141px;
   font-size: 18px;
   line-height: 27px;
   color: rgb(107, 107, 107);
@@ -283,6 +295,9 @@ a {
  
  .container_product_of_the_month{
    max-height: 100%;
+ }
+ .wrapper_container_product_of_the_month{
+   max-width: 100%;
  }
   .container_best_prices{
    display: flex;
