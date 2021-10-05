@@ -228,12 +228,6 @@
   font-family: "Work Sans", sans-serif;
 }
 
-.separate-line {
-  width: 1px;
-  height: 70px;
-  background-color: rgb(107, 107, 107);
-}
-
 .guitar_continer {
   display: flex;
   flex-direction: column;
@@ -252,3 +246,25 @@
   justify-content: flex-start;
   margin: 100px 100px 0 15px;
 }
+.clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 100px;
+  color: rgb(5, 5, 5);
+}
+
+.clockconteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+
+.horizontal_line {
+    width: 60px;
+    height: 70px;
+    margin-left: 0px;
+    background-color: orange;
+    border: 0px;
+    margin-top: 20px;
