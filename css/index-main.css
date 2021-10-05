@@ -61,14 +61,13 @@ section .megasellday_coundown_section {
     font-size: larger;
 }
 
-.owl-carousel {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+.products_list {
     color: var(--greydecoration-color);
     font-weight: bold;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    justify-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+    
 }
 
 .product_1 {
@@ -157,7 +156,7 @@ section .megasellday_coundown_section {
     text-decoration:none;
 }
 
-.owl-carousel button {
+.products_list button {
     margin-top: 15px;
     background-color: black;
     color: white;
@@ -168,7 +167,7 @@ section .megasellday_coundown_section {
     height: 45px;
 }
 
-.owl-carousel button:hover {
+.products_list button:hover {
     background-color: var(--logo-color);
     border: none;
 }

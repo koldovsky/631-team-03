@@ -256,6 +256,10 @@ button:hover {
     color: #777;
     
 }
+.products_list {
+    display: flex;
+justify-content: center;
+}
 @media (min-width: 700px) {.contact-box {
     display: none;
 }
