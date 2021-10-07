@@ -262,10 +262,10 @@
 }
 
 .horizontal_line {
-    width: 60px;
-    height: 70px;
+    width: 200px;
+    
+    height: 100px;
     margin-left: 0px;
     background-color: orange;
-    border: 0px;
+    border: 0px solid;
     margin-top: 20px;
-}
