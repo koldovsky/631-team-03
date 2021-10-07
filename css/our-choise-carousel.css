@@ -39,13 +39,59 @@ color: orange;
     color: #777777;
 }
 
-.carousel-descr {
-    display: block;
-    font-size: 16px;
-    color: black;
 
-    }
-
-    carousel-control-prev {
-        
-    }
+    .three-carousel .slide-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 20px;}
+      
+      .three-carousel .slide-container img {
+        width: 75%;
+      }
+    
+     .jiwa-tamb .donny-sax .winston-gui .ericson-drum .ericson-drum .jackson-gui{
+      display: flex;
+      flex-direction: column;
+      align-items: inherit;
+      }
+    
+      .carousel-descr a{
+       font-family: Work Sans, sans-serif;
+       font-size: 16px;
+       font-weight: 600;
+       display: block;
+       color: black;
+       text-decoration: none;
+      }
+       .carousel-descr a:hover {
+         color: #f8b803;
+       }
+    
+       .carousel-price {
+          font-family: Work Sans, sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          display: block;
+          color:#777777;
+       }
+    
+       .button-sell {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        border-radius: 3px;
+        width: 180px;
+        height: 45px;
+        margin-bottom: 40px;
+       }
+       .button-sell:hover {
+         color: #f8b803;
+       }
+       .btn-sell {
+        font-family: Work Sans, sans-serif;
+        width: 600;
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+       }
