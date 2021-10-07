@@ -9,9 +9,9 @@
   <title>Musical Instruments Store</title>
   <!--Maksym Orekhovskyi beginning-->
   <link rel="shortcut icon" href="img/maksym-img/icon.png" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/index-main.css">
@@ -265,60 +265,10 @@
     <p class="card-description">Click of image to open the product with full description.</p>
     <!--carousel-->
 
-    <div class="carousel">
-      <div id="carousel-choise" class="carousel slide" data-bs-ride="carousel">
-
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/jackson.jpeg" class="d-block w-50" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <p class="carousel-descr"><a href="#">Jackson RI405 Electric Guitar</a></p>
-              <p class="carousel-price">$300</p>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="img/donny.jpeg" class="d-block w-50" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <p class="carousel-descr"><a href="#">Donny Stavanger SRT12 Alto Saxophone</a></p>
-              <p class="carousel-price">$450</p>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="img/jiva.jpeg" class="d-block w-50" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <p class="carousel-descr"><a href="#">Jiwa Studio JWL100 Single Row Tambourine</a></p>
-              <p class="carousel-price">$50</p>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="img/winston.jpeg" class="d-block w-50" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <p class="carousel-descr"><a href="#">Winston WR-100 Electric Guitar</a></p>
-              <p class="carousel-price">$320</p>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="img/ericson.jpeg" class="d-block w-50" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <p class="carousel-descr"><a href="#">Ericson Black&White Snare Drumr</a></p>
-              <p class="carousel-price">$115</p>
-            </div>
-          </div>
-
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-choise" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-choise" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+    <div class="three-carousel container">
+      <div class="slide-container"></div>
+      <button class="btn slide-next">Next</button>
+      <button class="btn slide-prev">Prev</button>
     </div>
 
     </div>
@@ -777,6 +727,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.7/dayjs.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.7/plugin/duration.min.js"></script>
     <script src="js/script_countdown.js"></script>
+    <script src ="js/choice.js"></script>
 
     <!--Maryna Kostash-->
     <script type="text/javascript" src="js/main-page.js"></script>
