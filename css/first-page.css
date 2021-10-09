@@ -119,7 +119,7 @@ p {
 }
 }
     .social-media img:hover {
-    background-color: white;
+background-color:darkorange;
 }
 @media (min-width: 700px) {
     .social-media {

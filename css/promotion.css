@@ -2,11 +2,12 @@
 
 
 .promotion {
-    background-image: url(../img/baner.jpeg);
-    min-height: 400px;
+    background-image: url(../img/promotion-background.webp);
+    height: 390px;
     background-size: cover;
     background-position: center;
-    min-width: 976px;
+    width: 1170px;
+    margin: auto;
 }
 
 .prom {

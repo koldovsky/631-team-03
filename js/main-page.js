@@ -1,4 +1,3 @@
-console.log("hello world");
 function toggle() {
     let elm = document.getElementById("burger-checkbox");
     let menu = document.getElementsByClassName("menu");
