@@ -5,14 +5,16 @@
     --greydecoration-color: #777;
     --logo-color: #f8b803;
     font-family: 'Work Sans', sans-serif;
+    max-width: 1520px;
+    margin: auto; 
+}
+.new_arrivals_block_sizer {
+   
 }
 section .new_arrivals_section {
     max-width: 1200px;
     }
-section .megasellday_coundown_section {
-    max-width: 1200px;
-    width: 410px;
-}
+
 .orangesmalltext {
     text-align: center;
     color: var(--logo-color);
@@ -35,7 +37,7 @@ section .megasellday_coundown_section {
 }
 .heading {
     text-align: center;
-    font-size: larger;
+    font-size: 30px;
 }
 .countdownTime_size {
     font-size: 25px;
@@ -61,14 +63,16 @@ section .megasellday_coundown_section {
     font-size: larger;
 }
 
-.products_list {
-    color: var(--greydecoration-color);
+.products_list_arrivals_block {
     font-weight: bold;
     margin-bottom: 40px;
     margin-top: 40px;
     text-align: center;
-    
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-content: center;
 }
+
 
 .product_1 {
     margin-left: 200px;
@@ -76,21 +80,56 @@ section .megasellday_coundown_section {
 
 .Slide {
     width: 224px;
+    
+}
+.carousel-newarrivals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 100px;
 }
 
 .mainblock {
     display: flex;
     flex-direction: row;
-    margin-left: 170px;
-    margin-bottom: 50px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 100px;
 }
+/* BUTTONS NEW ARRIVALS BLOCK SETTINGS */
+.buttons_arrivals_block {
+    display: flex;
+    align-items: center;
+}
+.style_all_button_arrivals_block {
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: white;
+}
+.prev_button_arrivals_block {
+    background-image: url(../img/new-arrivals-block-images/newarrivals_left.png);
+    
+}
+.style_all_button_arrivals_block:hover{
+    background-color:var(--logo-color);
+    background-size: cover;
+    height: 80px;
+    
+}
+.next_button_arrivals_block {
+    background-image: url(../img/new-arrivals-block-images/newarrivals_right.png);
+   
+}
+/* BUTTONS NEW ARRIVALS BLOCK SETTINGS */
 
 .left_block {
-    background-image: url(../img/maksym-img/sticks.png);
+    background-image: url(../img/new-arrivals-block-images/sticks.png);
     background-size: 510px;
     background-repeat: no-repeat;
     background-color: #fafafa;
-    width: 476px;
+    width: 500px;
     height: 350px;
     margin-right: 35px;
     text-align: center;
@@ -110,9 +149,9 @@ section .megasellday_coundown_section {
 }
 
 .specialrates {
-    font-size: 11px !important;
+    font-size: 12px !important;
     text-transform: uppercase;
-    color: var(--greydecoration-color);
+    color:black;
 }
 
 .left_block .leftcolor {
@@ -121,7 +160,7 @@ section .megasellday_coundown_section {
 }
 
 .megasale {
-    font-size: 34px;
+    font-size: 40px;
 }
 
 .left_block .regretlater {
@@ -132,7 +171,7 @@ section .megasellday_coundown_section {
 }
 
 .right_block {
-    background-image: url(../img/maksym-img/gutaitbackround.png);
+    background-image: url(../img/new-arrivals-block-images/gutaitbackround.png);
     background-size: cover;
     width: 670px;
     height: 350px;
@@ -145,18 +184,7 @@ section .megasellday_coundown_section {
     margin-top: 50px;
 }
 
-.description a {
-    text-decoration: none;
-    color: black;
-}
-
-
-.description a:hover {
-    color: var(--logo-color);
-    text-decoration:none;
-}
-
-.products_list button {
+.products_list_arrivals_block button {
     margin-top: 15px;
     background-color: black;
     color: white;
@@ -167,7 +195,7 @@ section .megasellday_coundown_section {
     height: 45px;
 }
 
-.products_list button:hover {
+.products_list_arrivals_block button:hover {
     background-color: var(--logo-color);
     border: none;
 }
@@ -198,18 +226,20 @@ section .megasellday_coundown_section {
     color: white;
     line-height: 20px;
     margin-top: 20px;
+    font-size: 40px;
 }
 
 .numberg56q {
     color: white;
     margin-top: 15px;
     line-height: 15px;
+    font-size: 40px;
 }
 
 .price299 {
     line-height: 40px;
     color: var(--logo-color);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     margin-top: 40px;
 }
@@ -222,6 +252,7 @@ section .megasellday_coundown_section {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 12px;
 }
 
 .coundownbody {
@@ -250,6 +281,12 @@ section .megasellday_coundown_section {
 .description {
     margin-bottom: 10px;
 }
+.description a {
+    color: black;
+}
+.description a:hover {
+    color: var(--logo-color);
+}
 
    
 
@@ -269,9 +306,49 @@ section .megasellday_coundown_section {
    .new_arrivals_block {
        text-align: center;
    }
+   .carousel-newarrivals {
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+   .products_list_arrivals_block {
+       
+   }
    
     }
-  
+    @media (max-width:1290px) {
+        .products_list_arrivals_block {
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .carousel-newarrivals {
+            grid-template-columns: 1fr 1fr 1fr;
+           }
+    }
+    @media (max-width:990px) {
+        .products_list_arrivals_block {
+         grid-template-columns: 1fr 1fr 1fr ;
+        }
+      
+    
+    }
 
+   
+    @media (max-width:770px) {
+        .products_list_arrivals_block {
+         grid-template-columns: 1fr 1fr  ;
+        }
+      
+    
+    }
+    @media (max-width:540px) {
+
+        .products_list_arrivals_block {
+         grid-template-columns: 1fr ;
+         
+        }
+        .carousel-newarrivals {
+            margin-bottom: 0px;
+           }
+        
+    }
+    
 
 /* Maksym Orekhovskyi Finishing*/
