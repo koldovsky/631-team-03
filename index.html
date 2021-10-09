@@ -15,6 +15,7 @@
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/index-main.css">
+  <link rel="stylesheet" href="css/cart.css">
 
   <!-- End of Maksym Orekhovskyi-->
   <link rel="stylesheet" href="css/index-drumset.css">
@@ -277,8 +278,9 @@
   <!--Olga Makitra-->
 
   <!--Horton_Brown_Content_Yuliia_Martyniuk-->
+  
   <div class="drum-set">
-    <div class="container_drum-set">
+    <div class="container_drum_set">
       <h3 class="yellow-text">Drum Set</h3>
       <h1 class="black-text">Horton Brown Maple 5-Piece Shell Pack<span class="yellow-dot">.</span></h1>
       <p class="description-black">5-piece Maple Electronic Drum Set with 12"Snare, 18" Kick, 10/10/12" Toms, 2x12"
@@ -288,9 +290,7 @@
     <div class="price_container">
       <p class="old_price_drum">$ 3,100.99</p>
       <p class="new_price_drum">$2,599</p>
-      <form>
-        <input class="button-drum" type="button" value="Shop Now">
-      </form>
+      <button class="button-drum">Shop Now</button>
     </div>
     <div class="img_container">
       <img class="drum-img" src="img/drum_set.webp" alt="drums">
@@ -298,33 +298,35 @@
   </div>
   <!--Promo_Content-->
   <div class="promo_container">
-    <div class="deskription_promo">
-      <h3 class="yellow-text">Promo</h3>
-      <h1 class="white-text">Special Prices on Snare<br> Drums for Beginners<span class="yellow-dot">.</span></h1>
-      <hr class=horizontal_line>
-      <p class="description-white">Are you just starting to learn to play the drums?
-        Take a look at<br> our special offers!</p>
-    </div>
-    <div class="ericsons_container">
-      <!--Ericson white-->
-      <div class="ericson_white_container">
-        <h3 class="yellow-text">Snare Drums</h3>
-        <h2 class="name-white">Ericson White</h2>
-        <div>
-          <img class="ericson-img" src="img/ericson_white.jpg" alt="ericson white">
-        </div>
-        <p class="green-price">$115.00</p>
-        <a class="details" href="#">View Details→</a>
+       <div class="promo_wrapper container">
+      <div class="deskription_promo">
+        <h3 class="yellow-text">Promo</h3>
+        <h2 class="white-text">Special Prices on Snare.Drums for Beginners<span class="yellow-dot">.</span></h2>
+        <hr class=drumset_horizontal_line>
+        <p class="description-white">Are you just starting to learn to play the drums?
+          Take a look at our special offers!</p>
       </div>
-      <!--Ericson B&W-->
-      <div class="ericson_bw_container">
-        <h3 class="yellow-text"> Drums</h3>
-        <h2 class="name-white">Ericson B&W</h2>
-        <div>
-          <img class="ericson-img" src="img/ericson-bw.jpg" alt="ericson B&W">
+      <div class="ericsons_container">
+        <!--Ericson white-->
+        <div class="ericson_white_container">
+          <h3 class="yellow-text">Snare Drums</h3>
+          <h2 class="name-white">Ericson White</h2>
+          <div>
+            <img class="ericson-img" src="img/ericson_white.webp" alt="ericson white">
+          </div>
+          <p class="green-price">$115.00</p>
+          <a class="details" href="#">View Details→</a>
         </div>
-        <p class="green-price">$115.00</p>
-        <a class="details" href="#">View Details→</a>
+        <!--Ericson B&W-->
+        <div class="ericson_bw_container">
+          <h3 class="yellow-text"> Drums</h3>
+          <h2 class="name-white">Ericson B&W</h2>
+          <div>
+            <img class="ericson-img" src="img/ericson-bw.webp" alt="ericson B&W">
+          </div>
+          <p class="green-price">$115.00</p>
+          <a class="details" href="#">View Details→</a>
+        </div>
       </div>
     </div>
   </div>
@@ -361,6 +363,7 @@
         </div>
       </div>
     </div>
+<<<<<<< HEAD
     <div class="guitar_continer">
       <div>
         <img class="sail-img" src="img/guitar.jpg" alt="guitar">
@@ -395,6 +398,9 @@
       </form>
     </div>
 
+=======
+    <div class="sail_products"></div>
+>>>>>>> 0911978a25b40bf53e58a7c89b230640e27aaf04
   </div>
 
 
@@ -708,6 +714,48 @@
 
     </footer>
 
+    <div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartLabel">Cart</h5>
+                    <button type="button" class="close btn-close-modal-cart" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="cart-product-list-container"></div>
+                    <hr>
+                    <div class="container">
+                        <form class="form-contacts">
+                            <div class="form-group row">
+                                <label for="client-name" class="row-4 row-form-label">Your name:</label>
+                                <input class="form-control col-8" type="text" id="client-name" required>
+                            </div>
+                            <div class="form-group row">
+                                <label for="client-email" class="row-4 row-form-label">Your email:</label>
+                                <input class="form-control col-8" type="email" id="client-email" required>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close-btn" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-primary order">Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="icon-shop-cart-inner container">
+        <div class="backgroun-shop-cart-wrapper">
+            <a class="nav-link openCartLink" href="#modal-cart" data-bs-toggle="modal">
+                <img src="img/icon-shop-cart.svg" class="icon-shop-cart-background" alt="shop cart icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-badge" class="badge total-product-in-cart"></span>
+            </a>
+        </div>
+    </div>
+<div class="alert-container"></div>
     <!-- End of Olexandr Korshunov-->
 
     <!--Maksym Orekhovskyi-->
@@ -735,6 +783,12 @@
     <!--Maryna Kostash-->
     <!--Martyniuk Yuliia-->
     <script src="js/clock.js"></script>
+    <script src="js/alert-window.js"></script>
+    <script src="js/products-service.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/prodact-list-sail.js"></script>
+    <script src="js/index.js"></script>
+
     <!--Martyniuk Yuliia-->
 </body>
 
