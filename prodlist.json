@@ -1,0 +1,20 @@
+[
+    {
+        "id":one;
+        "name":"Dowson DPR 100<br>Acoustic Guitar",
+        "img":"img/guitar.jpg",
+        "price":"$180.00"
+    },
+    {
+        "id":two;
+        "name":"AER B-Flat Professional",
+        "img":"img/horn.jpg",
+        "price":"$300.00"
+    },
+    {
+       "id":three;
+        "name":"Levis Level ST-1",
+        "img":"img/violin.jpg",
+        "price":"$200.00" 
+    }
+]
