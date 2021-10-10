@@ -285,7 +285,7 @@ section .new_arrivals_section {
 .mapcontainer {
     display: flex;
     justify-content: center;
-    margin:0 0 100px 0; 
+    margin:auto
 }
 
    @media (max-width:750px) {
