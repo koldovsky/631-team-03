@@ -229,7 +229,7 @@
 @media (min-width: 650px) {
   main .sail_continer {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
   }
 }
 .sail_continer {
@@ -238,6 +238,7 @@
   grid-gap: 30px;
   min-height: 600px;
   width: 30%;
+  margine: auto;
 }
 .description_continer {
   display: flex;
@@ -247,8 +248,9 @@
   border-color: #f6f6f6;
   border-width: 2px;
   border-style: solid;
-  margin-bottom: 100px;
-  padding: 30px 20px;
+  /*margin-bottom: 100px;*/
+  /*padding: 30px 20px;*/
+  margine: auto;
 }
 
 .time-box {
@@ -295,9 +297,9 @@
   line-height: 27px;
   color: rgb(15, 13, 13);
 }*/
-.line {
+.sail_line {
   width: 1px;
-  height: 75px;
+  height: 50px;
   background-color: rgb(151, 148, 148);
 }
 
@@ -332,16 +334,17 @@
   font-family: "Work Sans", sans-serif;
   font-weight: bold;
 }
-.time_days,
-.time_hours,
-.time_minutes,
-.time_seconds {
-  font-size: 16px;
-  font-family: "Work Sans", sans-serif;
-  font-weight: bold;
-  padding-top: 15px;
-  padding-left: 15px;
+.sail_time_days,
+.sail_time_hours,
+.sail_time_minutes,
+.sail_time_seconds {
+  min-height: 50px;
+  font-size: 18px;
+  line-height: 27px;
   color: rgb(14, 13, 13);
+  vertical-align: bottom;
+  justify-content: center;
+  align-items: flex-end;
 }
 .form-group {
   max-width: 26vw;
