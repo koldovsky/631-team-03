@@ -287,8 +287,11 @@ section .new_arrivals_section {
 .description a:hover {
     color: var(--logo-color);
 }
-
-   
+.mapcontainer {
+    display: flex;
+    justify-content: center;
+    margin:0 0 100px 0; 
+}
 
    @media (max-width:750px) {
        :root {
