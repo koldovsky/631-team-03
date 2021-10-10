@@ -6,8 +6,8 @@
     height: 390px;
     background-size: cover;
     background-position: center;
-    width: 1170px;
-    margin: auto;
+    min-width: 976px;
+    margin-top: 60px;
 }
 
 .prom {

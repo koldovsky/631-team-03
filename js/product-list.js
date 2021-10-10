@@ -16,7 +16,7 @@
     <button>Add To Cart</button>
        </div>`,
        `<div class="Slide"><img src="img/new-arrivals-block-images/gutair-3.jpg" alt="GVC Cool Style Electric Gutair">
-       <p class="description"><a href="#">GVC Cool Style Electric Gutair</a></p>
+       <p class="description"><a href="#">GVC ERST7 Cool Style Electric Gutair</a></p>
       <p>$124.00</p>
    <button>Add To Cart</button>
       </div>`,
