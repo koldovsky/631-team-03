@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
-.musical-instruments {
-    margin: 30px 10px 5px 85px;
-    /*margin-top: 30px;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    margin-left: 85px;*/
-    max-width: 1368px; 
+#musical-instruments {
+    margin: 30px 10px 80px 85px;
+    
+    max-width: 980px; 
                        /* delete  min-height Maksym Orekhovskyi */
 
 }
@@ -45,10 +42,9 @@
     
 }
 .product-1 a, .product-2 a, .product-3 a {
-    max-width: "100%";
+    max-width: 100%;
     padding-right: 15px;
     border: 5px;
-    font-style: grey;
     display:block;
     text-decoration: none;
 }
@@ -84,15 +80,11 @@
     margin-left: 0px;
 }
 
-.product-1 a:hover, a:visited, a:active {
+a.acoustic-gui a.electric-gui a.ukules-gui a.left-gui  a.acoustic-drums a.electric-drums a.bass-drums a.drum-machin a.orch-violins a.orch-trumpets a.orch-double a.orch-xylophones:hover, :visited, :active {
 color: slategray;
 }
-.product-2 a:hover, a:visited, a:active {
-color: slategray;
-}
-.product-3 a:hover, a:visited, a:active {
-color: slategray;
-}
+
+
 
 
 

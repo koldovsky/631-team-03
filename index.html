@@ -9,8 +9,8 @@
   <title>Musical Instruments Store</title>
   <!--Maksym Orekhovskyi beginning-->
   <link rel="shortcut icon" href="img/maksym-img/icon.png" type="image/x-icon">
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -246,35 +246,34 @@
   <!-- End of Maksym Orekhovskyi -->
   <!-- Olga Makitra -->
   <!-- Olga Makitra -->
-  <section class="musical-instruments">
+  <section id="musical-instruments">
     <div class="products">
       <div class="product-1">
         <p class="oll-guitars">Guitars</p>
         <hr class="hr-guitars">
-        <a href="#">Acoustic Guitars</a>
-        <a href="#">Electric Guitars</a>
-        <a href="#">Ukuleles</a>
-        <a href="#">Left-Handed</a>
+        <a class="acoustic-gui" href= "#">Acoustic Guitars</a>
+        <a class="electric-gui" href="#">Electric Guitars</a>
+        <a class="ukules-gui" href="#">Ukuleles</a>
+        <a class="left-gui" href="#">Left-Handed</a>
       </div>
       <div class="product-2">
         <p class="oll-drums">Drums</p>
         <hr class="hr-drums">
-        <a href="#">Acoustic Drums</a>
-        <a href="#">Elecric Drums</a>
-        <a href="#">Bass Drums</a>
-        <a href="#">Drum Machines</a>
+        <a class="acoustic-drums" href="#">Acoustic Drums</a>
+        <a class="electric-drums" href="#">Elecric Drums</a>
+        <a class="bass-drums" href="#">Bass Drums</a>
+        <a class="drum-machin" href="#">Drum Machines</a>
       </div>
       <div class="product-3">
-        <p class="oll-orch">Orchestric</h2>
-          <hr class="hr-orchestric">
-          <a href="#">Violins</a>
-          <a href="#">Trumpets</a>
-          <a href="#">Double Basses</a>
-          <a href="#">Xylophones</a>
+        <p class="oll-orch">Orchestric</p>
+        <hr class="hr-orchestric">
+        <a class="orch-violins" href="#">Violins</a>
+        <a class="orch-trumpets" href="#">Trumpets</a>
+        <a class="orch-double" href="#">Double Basses</a>
+        <a class="orch-xylophones" href="#">Xylophones</a>
       </div>
     </div>
   </section>
-  <br>
   <div class="promotion">
     <span class="prom">PROMOTION</span>
     <p class="give">Give a concert<span class="give-point">.</span></p>
@@ -282,14 +281,17 @@
     </p>
     <p class="offer-valid">The offer is valid only from 01 to 15 April for new customers only.
     </p>
-    <div class="button-promotion">
-      <a href="#" class="btn-promotion">Browse Instruments</a>
-    </div>
+    <a href="#">
+      <div class="button-promotion">
+        <p class="btn-promotion">Browse Instruments</p>
+
+      </div>
+    </a>
   </div>
   <br>
   <br>
   <br>
-  <section class="our-choice">
+  <section id="our-choice">
     <p class="choices">OUR CHOICE</p>
     <p class="sell-instrument">Best-Selling Instruments<span class="give-point">.</span></p>
     <hr class="best">
@@ -297,11 +299,9 @@
     <!--carousel-->
 
     <div class="three-carousel container">
+      <div class="btn slide-next"><img src="img/arrow-left.svg"></div>
       <div class="slide-container"></div>
-      <button class="btn slide-next">Next</button>
-      <button class="btn slide-prev">Prev</button>
-    </div>
-
+      <div class="btn slide-prev"><img src="img/arrow-right.svg"></div>
     </div>
   </section>
   <!--Olga Makitra-->
@@ -364,7 +364,7 @@
     <div class="description_continer">
       <h3 class="yellow-text">Up to 40% off</h3>
       <h1 class="black-text">On Sale<span class="yellow-dot">.</span></h1>
-      <hr class=horizontal_line>
+      <hr class=drumset_horizontal_line>
       <p class="description-black">The promotion ends really soon.<br> Hurry Up!</p>
       <div>
         <div>
@@ -387,44 +387,11 @@
             <div class="mine_seconds">
               <div id="time-seconds" class="time_seconds">00</div>
               <span class="body_time_text">seconds</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="guitar_continer">
-      <div>
-        <img class="sail-img" src="img/guitar.jpg" alt="guitar">
-      </div>
-      <br>
-      <a class="sail-content" href="#">Dowson DPR 100<br>Acoustic Guitar</a>
-      <p class="sail-price">$180.00</p>
-      <form>
-        <input class="button-drum" type="button" value="Add to Cart">
-      </form>
-    </div>
-    <div class="horn_continer">
-      <div>
-        <img class="sail-img" src="img/horn.jpg" alt="horn">
-      </div>
-      <br>
-      <a class="sail-content" href="#">AER B-Flat Professional<br>Bass Horn</a>
-      <p class="sail-price">$300.00</p>
-      <form>
-        <input class="button-drum" type="button" value="Add to Cart">
-      </form>
-    </div>
-    <div class="violin_continer">
-      <div>
-        <img class="sail-img" src="img/violin.jpg" alt="violin">
-      </div>
-      <br>
-      <a class="sail-content" href="#">Levis Level ST-1<br>Student Violin</a>
-      <p class="sail-price">$200.00</p>
-      <form>
-        <input class="button-drum" type="button" value="Add to Cart">
-      </form>
-    </div>
     <div class="sail_products"></div>
   </div>
 
@@ -687,7 +654,7 @@
 
 
           <form class="form-group">
-            <input type="text" placeholder="Email" required>
+            <input class="footer-form-email" type="text" placeholder="Email" required>
             <button id="footer-button" type="submit">Sing Up to Our Newsletters</button>
           </form>
 
