@@ -52,6 +52,9 @@ color: orange;
         padding: 20px;
       }
       
+      .three-carousel .carousel-caption {
+        position: static;}
+
       .three-carousel .slide-container {
         display:flex;
       }
