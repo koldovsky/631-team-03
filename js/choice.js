@@ -21,7 +21,7 @@
             </div>
           </article>`,
      `<article class = "winston-gui">
-     <img src="img/winston.jpeg" class="d-block w-50" alt="...">
+     <img src="img/winston.jpg" class="d-block w-50" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <p class="carousel-descr"><a href="#">Winston WR-100 Electric Guitar</a></p>
             <p class="carousel-price">$320</p>
@@ -45,9 +45,11 @@
           <div class="carousel-caption d-none d-md-block">
             <p class="carousel-descr"><a href="#">Jackson RI405 Electric Guitar</a></p>
             <p class="carousel-price">$300</p>
+            <a href="#">
             <div class="button-sell">
-              <a href="#"class="btn-sell">Add to Cart</a>
+              <p class="btn-sell" >Add to Cart</p>
             </div>
+            </a>
           </div>
           </article>`,
     ];
