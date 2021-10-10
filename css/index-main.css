@@ -287,6 +287,9 @@ section .new_arrivals_section {
     justify-content: center;
     margin:auto
 }
+.map-inner {
+    margin: auto;
+}
 
    @media (max-width:750px) {
        :root {
