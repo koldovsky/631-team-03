@@ -1,32 +1,32 @@
-[
-    {
-       "id":1,
-       "name":"<b>Dowson Little Roomer Snare Drum",
-       "img":"img/maksym-img/drums-2.jpg",
-       "price":"$228.00"
-    },
-    {
-       "id":2,
-       "name":"<b>Dickson Studio ER100 Electric Guitar",
-       "img":"img/maksym-img/gutair-2.jpg",
-       "price":"$180.00"
-    },
-    {
-       "id":3,
-       "name":"<b>Bover Rover ESRSTQ56 Snare Drum",
-       "img":"img/maksym-img/drums.jpg",
-       "price":"$928.00"
-    },
-    {
-       "id":4,
-       "name":"<b>GVC Cool Style Electric Gutair",
-       "img":"img/maksym-img/gutair-3.jpg",
-       "price":"$124.00"
-    },
-    {
-       "id":5,
-       "name":"<b>Raven Bee RB500 Exotic Style Guitar",
-       "img":"img/maksym-img/gutair.jpg",
-       "price":"$1128.00"
-    }
- ]
+// [
+//     {
+//        "id":1,
+//        "name":"<b>Dowson Little Roomer Snare Drum",
+//        "img":"img/new-arrivals-block-images/drums-2.jpg",
+//        "price":"$228.00"
+//     },
+//     {
+//        "id":2,
+//        "name":"<b>Dickson Studio ER100 Electric Guitar",
+//        "img":"img/new-arrivals-block-images/gutair-2.jpg",
+//        "price":"$180.00"
+//     },
+//     {
+//        "id":3,
+//        "name":"<b>Bover Rover ESRSTQ56 Snare Drum",
+//        "img":"img/new-arrivals-block-images/drums.jpg",
+//        "price":"$928.00"
+//     },
+//     {
+//        "id":4,
+//        "name":"<b>GVC Cool Style Electric Gutair",
+//        "img":"img/new-arrivals-block-images/gutair-3.jpg",
+//        "price":"$124.00"
+//     },
+//     {
+//        "id":5,
+//        "name":"<b>Raven Bee RB500 Exotic Style Guitar",
+//        "img":"img/new-arrivals-block-images/gutair.jpg",
+//        "price":"$1128.00"
+//     }
+//  ]

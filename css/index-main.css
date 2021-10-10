@@ -1,277 +1,336 @@
 /* Maksym Orekhovskyi Beginning */
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
- :root {
-    --greydecoration-color: #777;
-    --logo-color: #f8b803;
-    font-family: 'Work Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap");
+:root {
+  --greydecoration-color: #777;
+  --logo-color: #f8b803;
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  max-width: 1520px;
+  margin: auto;
+}
+
+.new_arrivals_block_sizer {
 }
 section .new_arrivals_section {
-    max-width: 1200px;
-    }
-section .megasellday_coundown_section {
-    max-width: 1200px;
-    width: 410px;
+  max-width: 1200px;
 }
+
 .orangesmalltext {
-    text-align: center;
-    color: var(--logo-color);
-    margin-top: 150px;
+  text-align: center;
+  color: var(--logo-color);
+  margin-top: 150px;
 }
 .coundown_days_seconds_minutes {
-   margin-right:20px ;
-   margin-left:20px ;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .divider_line {
-    width: 1px;
-    height: 50px;
-    background-color:#242424;
-    display: grid;
-    justify-self: center;
-    opacity: .125;
-    
+  width: 1px;
+  height: 50px;
+  background-color: #242424;
+  display: grid;
+  justify-self: center;
+  opacity: 0.125;
 }
 .heading {
-    text-align: center;
-    font-size: larger;
+  text-align: center;
+  font-size: 30px;
 }
 .countdownTime_size {
-    font-size: 25px;
-    font-weight: bold;
+  font-size: 25px;
+  font-weight: bold;
 }
 #w-text {
-    font-size: 12px;
-    color: var(--greydecoration-color);
-    opacity: .800;
-    font-weight: none;
+  font-size: 12px;
+  color: var(--greydecoration-color);
+  opacity: 0.8;
+  font-weight: none;
 }
 .divider-component-block {
-    display: grid;
+  display: grid;
 }
 .divider-component {
-    margin: auto;
+  margin: auto;
 }
 
 .grey-text {
-    margin-top: 15px;
-    color: var(--greydecoration-color);
-    text-align: center;
-    font-size: larger;
+  margin-top: 15px;
+  color: var(--greydecoration-color);
+  text-align: center;
+  font-size: larger;
 }
 
-.products_list {
-    color: var(--greydecoration-color);
-    font-weight: bold;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    text-align: center;
-    
+.products_list_arrivals_block {
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  justify-content: center;
 }
 
 .product_1 {
-    margin-left: 200px;
+  margin-left: 200px;
 }
 
 .Slide {
-    width: 224px;
+  width: 224px;
+}
+.carousel-newarrivals {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 100px;
 }
 
 .mainblock {
-    display: flex;
-    flex-direction: row;
-    margin-left: 170px;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 100px;
 }
+/* BUTTONS NEW ARRIVALS BLOCK SETTINGS */
+.buttons_arrivals_block {
+  display: flex;
+  align-items: center;
+}
+.style_all_button_arrivals_block {
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: white;
+}
+.prev_button_arrivals_block {
+  background-image: url(../img/new-arrivals-block-images/newarrivals_left.png);
+}
+.style_all_button_arrivals_block:hover {
+  background-color: var(--logo-color);
+  background-size: cover;
+  height: 80px;
+}
+.next_button_arrivals_block {
+  background-image: url(../img/new-arrivals-block-images/newarrivals_right.png);
+}
+/* BUTTONS NEW ARRIVALS BLOCK SETTINGS */
 
 .left_block {
-    background-image: url(../img/maksym-img/sticks.png);
-    background-size: 510px;
-    background-repeat: no-repeat;
-    background-color: #fafafa;
-    width: 476px;
-    height: 350px;
-    margin-right: 35px;
-    text-align: center;
+  background-image: url(../img/new-arrivals-block-images/sticks.png);
+  background-size: 510px;
+  background-repeat: no-repeat;
+  background-color: #fafafa;
+  width: 500px;
+  height: 350px;
+  margin-right: 35px;
+  text-align: center;
 }
 
 .left_block p {
-    font-size: 14px;
-    font-weight: bold;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .textleftblock {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 .speckcolor {
-    color: var(--logo-color);
+  color: var(--logo-color);
 }
 
 .specialrates {
-    font-size: 11px !important;
-    text-transform: uppercase;
-    color: var(--greydecoration-color);
+  font-size: 12px !important;
+  text-transform: uppercase;
+  color: black;
 }
 
 .left_block .leftcolor {
-    color: rgb(102, 153, 4);
-    font-size: 17px;
+  color: rgb(102, 153, 4);
+  font-size: 17px;
 }
 
 .megasale {
-    font-size: 34px;
+  font-size: 40px;
 }
 
 .left_block .regretlater {
-    font-size: 16px;
-    color: var(--greydecoration-color);
-    font-weight: unset;
-    margin-top: 30px;
+  font-size: 16px;
+  color: var(--greydecoration-color);
+  font-weight: unset;
+  margin-top: 30px;
 }
 
 .right_block {
-    background-image: url(../img/maksym-img/gutaitbackround.png);
-    background-size: cover;
-    width: 670px;
-    height: 350px;
-    text-align: left;
-    padding-left: 45px;
-    border-radius: 2px;
+  background-image: url(../img/new-arrivals-block-images/gutaitbackround.png);
+  background-size: cover;
+  width: 670px;
+  height: 350px;
+  text-align: left;
+  padding-left: 45px;
+  border-radius: 2px;
 }
 
 .textrightblock {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
-.description a {
-    text-decoration: none;
-    color: black;
+.products_list_arrivals_block button {
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  width: 120px;
+  height: 45px;
 }
 
-
-.description a:hover {
-    color: var(--logo-color);
-    text-decoration:none;
-}
-
-.products_list button {
-    margin-top: 15px;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    border: none;
-    width: 120px;
-    height: 45px;
-}
-
-.products_list button:hover {
-    background-color: var(--logo-color);
-    border: none;
+.products_list_arrivals_block button:hover {
+  background-color: var(--logo-color);
+  border: none;
 }
 
 .textrightblock button {
-    height: 45px;
-    width: 110px;
-    border-radius: 5px;
-    font-weight: bold;
-    border: none;
-    margin-top: 20px;
+  height: 45px;
+  width: 110px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
 }
 
 .textrightblock button:hover {
-    background-color: var(--logo-color);
-    border: none;
+  background-color: var(--logo-color);
+  border: none;
 }
 
 .textrightblock button {
-    background-color: white;
-    border: none;
-    color: black;
-    margin-top: 35px;
-    
+  background-color: white;
+  border: none;
+  color: black;
+  margin-top: 35px;
 }
 
 .namemartin {
-    color: white;
-    line-height: 20px;
-    margin-top: 20px;
+  color: white;
+  line-height: 20px;
+  margin-top: 20px;
+  font-size: 40px;
 }
 
 .numberg56q {
-    color: white;
-    margin-top: 15px;
-    line-height: 15px;
+  color: white;
+  margin-top: 15px;
+  line-height: 15px;
+  font-size: 40px;
 }
 
 .price299 {
-    line-height: 40px;
-    color: var(--logo-color);
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 40px;
+  line-height: 40px;
+  color: var(--logo-color);
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
 }
 
 .changecolor {
-    color: white;
+  color: white;
 }
 
 .bestprice {
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .coundownbody {
-   margin-left: 20px;
-   margin-right: 20px;
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: auto 5px auto 5px auto 5px auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto 5px auto 5px auto 5px auto;
 }
 
 .separatebody_line {
-    opacity: .4;
-    width: 1px;
-    height: 80px;
-    background-color: rgb(107, 107, 107);
+  opacity: 0.4;
+  width: 1px;
+  height: 80px;
+  background-color: rgb(107, 107, 107);
 }
 
 .bodytime {
-    margin-top: 20px;
-    display: flex;
-    font-size: 18px;
-    line-height: 27px;
-    color: rgb(107, 107, 107);
+  margin-top: 20px;
+  display: flex;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgb(107, 107, 107);
 }
 
 .description {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+.description a {
+  color: black;
+}
+.description a:hover {
+  color: var(--logo-color);
 }
 
-   
+@media (max-width: 750px) {
+  :root {
+    max-width: 720px;
+  }
+  .mainblock {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 0;
+  }
+  .left_block {
+    width: 100%;
+  }
+  .new_arrivals_block {
+    text-align: center;
+  }
+  .carousel-newarrivals {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .products_list_arrivals_block {
+  }
+}
+@media (max-width: 1290px) {
+  .products_list_arrivals_block {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .carousel-newarrivals {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 990px) {
+  .products_list_arrivals_block {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
-   @media (max-width:750px) {
-       :root {
-           max-width: 720px;
-       }
-    .mainblock {
-          display: flex;
-          flex-direction: column;
-          align-items: left;
-          margin-left: 0;
-        }
-        .left_block {
-          width: 100%;
-        }
-   .new_arrivals_block {
-       text-align: center;
-   }
-   
-    }
-  
-
+@media (max-width: 770px) {
+  .products_list_arrivals_block {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 540px) {
+  .products_list_arrivals_block {
+    grid-template-columns: 1fr;
+  }
+  .carousel-newarrivals {
+    margin-bottom: 0px;
+  }
+}
 
 /* Maksym Orekhovskyi Finishing*/

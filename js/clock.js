@@ -1,23 +1,19 @@
-const clockContainer = document.querySelector('.clock');
-    setInterval(updateClock, 1000);
-    
-    function updateClock() { 
-    
-    // Seconds
-    const seconds = new Date().getSeconds();
-    document.getElementById("seconds").innerHTML = (seconds < 10 ? '0' : '') + seconds;
+const countDownDate = new Date("Nov 1 2021 00:00:00").getTime();
+ 
+  const x = setInterval(function() {
 
-    // Minutes
-    const minutes = new Date().getMinutes();
-    document.getElementById("minutes").innerHTML = (minutes < 10 ? '0' : '') + minutes;
-
-    // Hours
-    const hours = new Date().getHours();
-    document.getElementById("hours").innerHTML = (hours < 10 ? '0' : '') + hours;
+  const now = new Date().getTime();
   
-    
-    //Days
-    const days = new Date().getDays();
-    document.getElementById("days").innerHTML = (days < 10 ? '0' : '') + days;
-  clockContainer.innerText = newDate().toLocaleTimeString();
-}
+  const distance = countDownDate - now;
+
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("time-days").innerHTML = days 
+    document.getElementById("time-hours").innerHTML = hours
+    document.getElementById("time-minutes").innerHTML = minutes
+    document.getElementById("time-seconds").innerHTML = seconds
+      
+   }, 1000);
+
