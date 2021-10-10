@@ -13,14 +13,14 @@ class ProductList {
     const products = await this.productService.getProducts();
     products.forEach((product) => {
       productListDomStr += `
-         <div class="guitar_continer">
+         <div class="sail_products_continer">
           <div>
             <img class="sail-img" src="${product.img}" alt="guitar">
           </div>
             <br>
             <a class="sail-content" href="#">${product.name}</a>
-            <p class="sail-price">${product.price}</p>
-            <button class="button-drum">Add to Cart</button>
+            <p class="sail-price">$${product.price}</p>
+            <button name="add-to-cart-button" class="button-drum" data-bs-target="#modal-cart" data-id="${product.id}">Add to cart</button>
          </div>`
           ;
     });

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;600;700&display=swap");
 
 .footer-top {
   padding: 100px 100px;
@@ -6,11 +6,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 150px;
   grid-column-gap: 30px;
- 
 }
 
 .footer-top-background {
-  background-color:  #242424;
+  background-color: #242424;
   background-size: cover;
 }
 
@@ -24,7 +23,7 @@
 }
 
 .footer-buttom-background {
-  background-color:  rgb(30, 30, 30);
+  background-color: rgb(30, 30, 30);
   background-size: cover;
 }
 
@@ -60,20 +59,20 @@
   text-decoration: none;
   font-size: 17px;
   margin-top: 50px;
-   }
+}
 
 .footer-text-margine {
-   margin-top: 20em; /* Отступ сверху */
-   margin-bottom: 1em; /* Отступ снизу */
+  margin-top: 20em; /* Отступ сверху */
+  margin-bottom: 1em; /* Отступ снизу */
 }
 
 .link-hover:hover {
-    color: #f8b803 !important;
-    font-style: unset;
-    text-decoration: underline;
-  }
+  color: #f8b803 !important;
+  font-style: unset;
+  text-decoration: underline;
+}
 
-input[type=text] {
+.footer-form-email {
   background-color: rgba(89, 89, 89, 0.24);
   border-radius: 4px;
   padding-left: 20px;
@@ -93,14 +92,13 @@ input[type=text] {
   height: 45px;
   text-transform: none;
   background-color: #f8b803;
-
 }
 
 .footer-hr {
   margin: 15px;
   height: 1px;
-  width:65%;
-  background-color:rgba(255, 255, 255, 0.05);
+  width: 65%;
+  background-color: rgba(255, 255, 255, 0.05);
   margin-left: 0px;
 }
 
@@ -110,7 +108,7 @@ input[type=text] {
 
 @media (max-width: 750px) {
   .footer-top {
-    background-color:  #242424;
+    background-color: #242424;
     padding: 100px 100px;
     display: grid;
     grid-template-columns: 1fr;
@@ -118,7 +116,6 @@ input[type=text] {
     grid-column-gap: 30px;
     text-align: center;
   }
-
 
   .footer-buttom {
     background-color: rgb(30, 30, 30);
@@ -128,5 +125,3 @@ input[type=text] {
     text-align: center;
   }
 }
-
-

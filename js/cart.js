@@ -19,7 +19,7 @@ class Cart {
     }
     async renderCart() {
       let total = 0;
-      let cartDomSting = `<div class="container">
+      let cartDomSting = `<div class="container_s">
                   <div class="row">
                       <div class="col-5"><strong>Product</strong></div>
                       <div class="col-3"><strong>Price</strong></div>
