@@ -177,3 +177,35 @@
   color: white;
   font-weight: bold;
 }
+
+
+.final-banners-set {
+  display: grid;
+}
+
+.orchestric-sale-week-background {
+  background: center url(../img/backgrounds/background-orchestric-sale-week.webp);
+  background-size: cover;
+  min-height: 306px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+
+}
+
+.red-wings-background {
+  background: center url(../img/backgrounds/background-red-wings-drum-set.webp);
+  background-size: cover;
+  min-height: 306px;
+  width: 100%;
+  margin: 1em auto 1em;
+  display: grid;
+}
+.exclusive-guitars-background {
+  background: center url(../img/backgrounds/background-exclusive-guitars.webp);
+  background-size: cover;
+  min-height: 306px;
+  width: 100%;
+  margin: 1em auto 1em;
+  display: grid;
+}
