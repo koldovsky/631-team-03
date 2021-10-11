@@ -7,13 +7,13 @@
     },
     {
         "id":"02345",
-        "name":"AER B-Flat Professional",
+        "name":"AER B-Flat Professional<br>Bass Horn",
         "img":"img/horn.jpg",
         "price":300.00
     },
     {
        "id":"03456",
-        "name":"Levis Level ST-1",
+        "name":"Levis Level ST-1<br>Student Violin",
         "img":"img/violin.jpg",
         "price":200.00 
     }
