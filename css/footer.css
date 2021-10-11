@@ -81,6 +81,7 @@
   width: 100%;
   color: #fff;
   height: 45px;
+
 }
 
 #footer-button {
@@ -106,9 +107,9 @@
   display: grid;
 }
 
-.footer-conteiner {
+.footer-container {
   margin: auto;
-  max-width: 980px;
+  max-width: 1535px;
 }
 
 @media (max-width: 750px) {
@@ -120,6 +121,8 @@
     grid-template-rows: 150px;
     grid-column-gap: 30px;
     text-align: center;
+    align-items:stretch;
+    
   }
 
   .footer-buttom {
