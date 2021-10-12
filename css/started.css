@@ -1,95 +1,111 @@
-.big-sale-container {
+.big-sale-container{
     display: flex;
-    width: 1200px;
-    height: 399px;
-    margin: auto;
-  }
-  
-  .big-sale-left {
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+@media(max-width:700px){
+    .big-sale-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.big-sale-left{
     width: 582px;
     height: 359px;
-    background-image: url(../img/fon-drum.png);
+    background-image: url(img/fon-drum.png);
     background-size: cover;
     text-align: center;
-    margin: 15px;
-  }
-  
-  .big-sale-text-one {
+}
+
+.big-sale-one{
     display: block;
     font-size: 12px;
+    line-height: 1.4;
     color: #f8b803;
     padding-top: 60px;
     margin: 0 auto;
     margin-bottom: 10px;
-  }
-  
-  .big-sale-text-two {
+}
+
+.big-sale-two{
     font-size: 40px;
-    color: #ffffff;
+    color: #FFFFFF;
     line-height: 1.1;
     margin-bottom: 35px;
-  }
-  
-  .big-sale-text-three {
+}
+
+.big-sale-three{
     font-size: 16px;
     line-height: 1.5;
     color: #fff;
-  }
-  
-  .big-sale-text-four {
+}
+
+.big-sale-four{
     font-size: 16px;
     line-height: 1.5;
     color: #fff;
     margin-bottom: 50px;
-  }
-  
-  
-  .big-sale-right {
-    width: 582px;
-    height: 359px;
-    background-image: url(../img/fon-guitar.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    margin: 15px;
-  }
-  
-  .big-sale-right-text-one {
-    font-size: 12px;
-    line-height: 1.4;
-    color: #f8b803;
-    padding: 100px 20px 30px 50px;
-  }
-  
-  .big-sale-right-text-two {
-    font-size: 40px;
-    color: #242424;
-    line-height: 1.1;
-    padding: 0px 20px 30px 50px;
-  }
-  .buttonn1 {
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    color: white;
-    background-color: #f8b803;
-    font-size: 16px;
-    padding: 16px 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
 }
-.buttonn1:hover {
+
+
+.big-sale-bottom > a {
+  text-decoration: none;
+  color: white;
+}
+
+.big-sale-guitar {
+  width: 582px;
+  height: 359px;
+  background-image: url(img/fon-guitar.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.big-sale-guitar-one {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #f8b803;
+  padding: 100px 20px 30px 50px;
+}
+
+.big-sale-guitar-two {
+  font-size: 40px;
+  color: #242424;
+  line-height: 1.1;
+  padding: 0px 20px 30px 50px;
+}
+
+.navbar-light .navbar-toggler{
+  margin: auto 20px;
+}
+
+.color-text {
+    color: #f8b803;
+}
+
+.button-big-sale {
+    background-color: #f8b803; 
+    color: white; 
+    border: none;
+    font-size: 16px;
+    line-height: 3.5;
+    text-align: center;
+    vertical-align: center;
+    width: 140px;
+    height: 55px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.button-big-sale:hover {
     background-color: white;
     color: black;
-}
-.color-point {
-  color: #f8b803;
-}
-.carousell1 {
-  display:flex;
-  background-position: center;
-  width: 75px;
-  height: 75px;
 }
 
