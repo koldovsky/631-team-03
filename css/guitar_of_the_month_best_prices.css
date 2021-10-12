@@ -8,9 +8,6 @@ a {
 }
 
 .container_product_of_the_month {
-  display: flex;
-  justify-content:space-evenly;
-  flex-wrap: wrap;
   max-width: 100%;
   min-height: 650px;
   background: url(../img/peacock_background.png);
@@ -20,14 +17,13 @@ a {
 .wrapper_container_product_of_the_month{
   display: flex;
   justify-content: space-evenly;
-  }
-
-.wrapper_container_product_of_the_month {
   min-width: 950px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-}
+  }
+
+
 
 .photo_container_product_of_the_month {
   display: flex;
@@ -43,6 +39,11 @@ a {
 .description_container_product_of_the_month {
   max-width: 950px;
   margin: 70px;
+}
+.main_container_product_of_the_month{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .guitar_of_the_month {
@@ -100,6 +101,7 @@ a {
   background-color: rgb(107, 107, 107);
 }
 .countdown_days, .countdown_hours, .countdown_minutes, .countdown_seconds{
+  text-align: center;
   min-height: 70.5px;
   padding-top: 10px;
   line-height: 54px;
@@ -291,13 +293,13 @@ a {
     flex-wrap: wrap;
     
 }
-@media  (min-width: 320px) and (max-width:650px) {
+ @media  (min-width: 320px) and (max-width:650px) {  
  
  .container_product_of_the_month{
-   max-height: 100%;
+   min-height: 100%;
  }
  .wrapper_container_product_of_the_month{
-   max-width: 100%;
+   min-width: 100%;
  }
   .container_best_prices{
    display: flex;
@@ -353,6 +355,9 @@ a {
 .container_discount_product{
   padding-top: 50px;
 }
+.description_container_discount_product{
+  flex-direction: column;
+}
 .specifications_discount_product{
   display: flex;
   flex-direction: column;
@@ -366,4 +371,21 @@ a {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.photo_drums_horton_brown{
+  min-width: 320px;
+  max-height: 300px;
 }
+}
+ @media  (min-width: 650px) and (max-width:848px){
+
+  .wrapper_container_product_of_the_month{
+    min-width: 100%;
+  } 
+
+}
+ @media  (min-width: 848px) and (max-width:980px){
+  .wrapper_container_product_of_the_month{
+    min-width: 100%;
+} 
+
+ }
