@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
 #musical-instruments {
-    margin: 30px 10px 80px 85px;
-    
-    max-width: 980px; 
+    margin: auto;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
                        /* delete  min-height Maksym Orekhovskyi */
 
 }
@@ -23,7 +24,6 @@
     display: grid;
     grid-template-columns: 11fr 11fr 10fr;
     font-family: 'Work Sans', sans-serif;
-    width: 1200px;
     height: 224px;
     
     color: rgb(94, 92, 92);
@@ -88,7 +88,10 @@ color: slategray;
 
 
 
-@media (min-width: 600px) { 
+@media (max-width: 750px) { 
+    .products {
+    grid-template-columns: 1fr;
+    margin-bottom: 500px;
 
-
+    }
 }

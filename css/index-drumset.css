@@ -1,9 +1,7 @@
 /*Horton_Brown_Content_Yuliia_Martyniuk*/
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
 .container {
-  margine: auto;
-  min-width: 1300px;
-}
+  margine: auto;}
 .drum-set {
   background-color: #fafafa;
 }

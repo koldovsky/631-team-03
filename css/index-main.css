@@ -183,6 +183,13 @@ section .new_arrivals_section {
   padding-left: 45px;
   border-radius: 2px;
 }
+@media (max-width: 680px) { 
+  .right_block {
+  width: 100%;
+
+  }
+}
+
 
 .textrightblock {
   margin-top: 50px;
@@ -317,6 +324,11 @@ width: 150px;
    .new_arrivals_block {
        text-align: center;
    }
+   .right_block {
+     width: 100%;
+     text-align: center;
+   }
+   
    
 
 @media (max-width: 750px) {
