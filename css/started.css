@@ -125,8 +125,8 @@
 
 
 .carousel-indicators li {
-	background: #000000;
+	background: white;
 }
 .carousel-indicators .active {
-	background: #000000;
+	background: white;
 }
